@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5205F2D3220FB911003C7F50 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205F2D2220FB911003C7F50 /* MenuViewController.swift */; };
 		522A906A220F7CF900CF3A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A9069220F7CF900CF3A46 /* AppDelegate.swift */; };
 		522A906C220F7CF900CF3A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A906B220F7CF900CF3A46 /* ViewController.swift */; };
 		522A906F220F7CF900CF3A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A906D220F7CF900CF3A46 /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		522A9082220F7CFB00CF3A46 /* zapeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A9081220F7CFB00CF3A46 /* zapeiTests.swift */; };
 		522A908D220F7CFB00CF3A46 /* zapeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A908C220F7CFB00CF3A46 /* zapeiUITests.swift */; };
 		526174E2220FA3150064E614 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526174E1220FA3150064E614 /* HomeViewController.swift */; };
+		98D4846E220FF6B200A2AA6D /* ComandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D4846D220FF6B200A2AA6D /* ComandaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5205F2D2220FB911003C7F50 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		522A9066220F7CF900CF3A46 /* zapei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zapei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A9069220F7CF900CF3A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522A906B220F7CF900CF3A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		522A908C220F7CFB00CF3A46 /* zapeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zapeiUITests.swift; sourceTree = "<group>"; };
 		522A908E220F7CFB00CF3A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526174E1220FA3150064E614 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98D4846D220FF6B200A2AA6D /* ComandaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComandaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			children = (
 				522A9069220F7CF900CF3A46 /* AppDelegate.swift */,
 				522A906B220F7CF900CF3A46 /* ViewController.swift */,
-				5205F2D2220FB911003C7F50 /* MenuViewController.swift */,
+				98D4846D220FF6B200A2AA6D /* ComandaViewController.swift */,
 				526174E1220FA3150064E614 /* HomeViewController.swift */,
 				522A906D220F7CF900CF3A46 /* Main.storyboard */,
 				522A9073220F7CFA00CF3A46 /* Assets.xcassets */,
@@ -265,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D4846E220FF6B200A2AA6D /* ComandaViewController.swift in Sources */,
 				522A906C220F7CF900CF3A46 /* ViewController.swift in Sources */,
-				5205F2D3220FB911003C7F50 /* MenuViewController.swift in Sources */,
 				522A9072220F7CF900CF3A46 /* zapei.xcdatamodeld in Sources */,
 				522A906A220F7CF900CF3A46 /* AppDelegate.swift in Sources */,
 				526174E2220FA3150064E614 /* HomeViewController.swift in Sources */,
@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM6RH6V5Z9;
+				DEVELOPMENT_TEAM = LDRZN2BRM2;
 				INFOPLIST_FILE = zapei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM6RH6V5Z9;
+				DEVELOPMENT_TEAM = LDRZN2BRM2;
 				INFOPLIST_FILE = zapei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
