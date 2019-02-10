@@ -55,7 +55,7 @@ class ComandaViewController: UIViewController, UITableViewDelegate, UITableViewD
 //        self.navigationController?.navigationBar.topItem?.title = "Mesa \(mesaAtual)"
 
         let finalizar = UIButton(frame: CGRect(x: self.view.frame.width/2 - (self.view.frame.width - 10)/2, y: self.view.frame.height - 130, width: self.view.frame.width - 10, height: 50))
-        finalizar.backgroundColor = #colorLiteral(red: 0.3568627451, green: 0.7411764706, blue: 0.5921568627, alpha: 1)
+        finalizar.backgroundColor = #colorLiteral(red: 0.04705882353, green: 0.1333333333, blue: 0.2196078431, alpha: 1)
         finalizar.layer.cornerRadius = 10
         finalizar.setTitle("Encerrar comanda", for: .normal)
         finalizar.addTarget(self, action: #selector(finalizarButtonAction), for: .touchUpInside)
@@ -71,7 +71,7 @@ class ComandaViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 
         let adicionar = UIButton(frame: CGRect(x: self.view.frame.width - 60, y: 30, width: 50, height: 50))
-        adicionar.backgroundColor = #colorLiteral(red: 0.3568627451, green: 0.7411764706, blue: 0.5921568627, alpha: 1)
+        adicionar.backgroundColor = #colorLiteral(red: 0.04705882353, green: 0.1333333333, blue: 0.2196078431, alpha: 1)
         adicionar.layer.cornerRadius = 10
         adicionar.setTitle("OK", for: .normal)
         adicionar.addTarget(self, action: #selector(adicionarButtonAction), for: .touchUpInside)
